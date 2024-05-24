@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body>
+    <nav class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/menu-svgrepo-com.svg" alt="">
+        <img class="youtube-icon" src="icons/YouTube_Logo_2017.svg.png" alt="">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/mic.webp" alt="">
+          <div class="tooltip">Search with your Voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg" alt="">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="profile-icon" src="icons/unnamed.jpg" alt="">
+      </div>
+    </nav>
+
+    <div class="sidebar">
+      
+      <div class="sidebar-link">
+        <img src="icons/sidebar/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/subscriptions.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/originals.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/youtube-music.svg" alt="">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/library.svg" alt="">
+        <div>Library</div>
+      </div>
+      
+    </div>
+
+    <main>
+    <section class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/mahesh.jpg">
+        <div class="video-time">14:20</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/mahesh.jpg">
+        </div> 
+        <div class="video-info">
+          <p class="video-title">
+            Vatapi Ganpatim | Mahesh Kale
+          </p>
+          <p class="video-author">
+            Mahesh Kale
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/jaishankar.jpg">
+        <div class="video-time">14:20</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/jaishankar.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Diplomats Masterclass
+          </p>
+          <p class="video-author">
+            S Jaishankar
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/deployment.jpg">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/ai.png">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Building the world with AI | RAG using Langchain Framework
+            </p>
+            <p class="video-author">
+              AI Anytime
+            </p>
+            <p class="video-stats">
+              7M views &#183; 1 day ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/htmlcss.jpg">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/html.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Learn HTML CSS in 5 hours
+            </p>
+            <p class="video-author">
+              HTML
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/llamaindex.jpg">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/llama.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Build RAG Apps with RAG
+            </p>
+            <p class="video-author">
+              LLAMA INDEX
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/macbook.jpg">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/images.png">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              New latest Macbook with M3 chip
+            </p>
+            <p class="video-author">
+              Apple
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
